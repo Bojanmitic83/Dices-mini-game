@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 600px;
+    height: 550px;
+    margin: 50px auto;
+    box-shadow: 0 0 6px #ddd;
+    position: relative;
+}
+.btn{
+    height: 50px;
+    width: 600px;
+    background-color: lightgreen;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: white;
+    cursor: pointer;
+}
+.rounds {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 38px;
+    background-color: tomato;
+    color: #ddd;
+    top: -50px;
+    left: -50px;
+}
+.dices {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 38px;
+    color: #ddd;
+    top: -50px;
+    right: -50px;
+}
+#dice {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;;
+    border: 2px solid tomato;
+}
+.player1,.player2 {
+    width: 300px;
+    height: 500px;
+    float: left;
+    background-color: #ddd;
+    border: 1px solid green;
+}
+header {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    font-size: 30px;
+}
+main {
+    height: 350px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 200px;
+    color: green;
+}
+footer {
+    height: 50px;
+    background-color: indianred;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: white;
+}
+.displayDice {
+    height: 45px;
+    line-height: 45px;
+
+}
+.displayDice img {
+    width: 45px;
+    margin-right:  26px;
+}
