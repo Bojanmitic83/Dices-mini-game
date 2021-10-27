@@ -7,8 +7,11 @@
     width: 600px;
     height: 550px;
     margin: 50px auto;
-    box-shadow: 0 0 6px #ddd;
+    box-shadow: 0 0 60px rgb(207, 99, 99);
     position: relative;
+}
+body{
+    background-color: rgba(146, 131, 138, 0.363);
 }
 .btn{
     height: 50px;
@@ -97,4 +100,83 @@ footer {
     color: white;
     text-decoration: none;
     padding: 5px;
+}
+/********************
+responsive
+********************/
+@media(max-width:767px) {
+    .container {
+        width: 85%;
+        height: 458px;
+        margin: 25px auto;
+    }
+    main {
+        height: 230px;
+        text-align: center;
+        line-height: 230px;
+        font-size: 130px;
+        color: green;
+    }
+    .player1, .player2 {
+        width: 50%;
+        height: 380px;
+        float: left;
+        background-color: #ddd;
+        border: 1px solid green;
+    }
+    .btn {
+        height: 50px;
+        width: 100%;
+        background-color: lightgreen;
+        font-size: 20px;
+        letter-spacing: 3px;
+        color: white;
+        cursor: pointer;
+    }
+    .rounds {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 70px;
+        font-size: 38px;
+        background-color: tomato;
+        color: #ddd;
+        top: -25px;
+        left: -25px;
+    }
+    #dice {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 2px solid tomato;
+    }
+    .dices {
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 100px;
+        font-size: 38px;
+        color: #ddd;
+        top: -25px;
+        right: -25px;
+    }
+    footer {
+        height: 50px;
+        background-color: indianred;
+        text-align: center;
+        line-height: 45px;
+        font-size: 22px;
+        color: white;
+    }
+    .displayDice img {
+        width: 23px;
+        margin-right: 13px;
+    }
+    h4{
+        font-size: 29px;
+    }
 }
