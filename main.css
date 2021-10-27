@@ -89,3 +89,12 @@ footer {
     width: 45px;
     margin-right:  26px;
 }
+.again {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
